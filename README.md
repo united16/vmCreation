@@ -1,10 +1,9 @@
 <p align="center">
-<img src="![image](https://github.com/user-attachments/assets/1a81b6de-8643-4b9a-9d78-ec39e507c7d7)
-" alt="Virtual Machine logo"/>
+<img src="Virtual Machine.webp" height="40%" width="40%"alt="Virtual Machine logo"/>
 </p>
 
-<h1>Virtual Machine - Installation</h1>
-
+<h1>Virtual Machine - Creation tutorial</h1>
+In this tutorial, I will demonstrate how to create a virtual machine in Microsoft Azure and connect to it using Remote Desktop.
 <br />
 
 
@@ -14,7 +13,7 @@
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure Subscription
+- Microsoft Azure 
 - Remote Desktop
 
 <h2>Operating Systems Used </h2>
@@ -32,21 +31,21 @@
 "C:\Users\esrom\iCloudDrive\Desktop\GITHUB PORJECT\Profile\Insatall osTicket.png"
 -->
 
-<h2>Installation Steps</h2>
+<h2>Creating Steps</h2>
 
 <p>
-<img src="" height="60%" width="60%" alt="Install osTicket">
+<img src="" height="20%" width="20%" alt=""> <img src="" height="20%" width="20%" alt="">
 </p>
 <p>
-I created the RG(Resourse Group) first and went on to create the VM. So the RG is just a container that holds related resources, like VM or other applications. When creating the VM, it'll ask for a Login credentials to be created. When that's completed it's advised to write down or memorize them because that's what's used to login to RDP.
+Before creating the VM, we first need to create a Resource Group. A Resource Group is a container that holds Azure related resources and helps keep them organized. You can think of a Resource Group as similar to a File Explorer it keeps things organized and easily accessible.
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Remote Desktop"/>
+<img src="" height="80%" width="80%" alt=""/>
 </p>
 <p>
-Once the VM is deployed/created, I copied the IP address of the VM and then used Remote Desktop to connect to it.
+
 
 </p>
 <br />
@@ -55,6 +54,6 @@ Once the VM is deployed/created, I copied the IP address of the VM and then used
 <img src="" height="80%" width="80%" alt=""/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ 
 </p>
 <br />
