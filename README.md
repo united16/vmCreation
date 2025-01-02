@@ -40,9 +40,9 @@ Before creating the VM, we first need to create a Resource Group. A Resource Gro
 
 <p>
 <p>Resource Group</p> <img src="Resource Group.jpg" height="35%" width="35%" alt="Resource Group"> <p>To begin the creation process, click the blue "Create" button located prominently in the center of the screen.</p> <br />
-<p>Creating Resource Group</p> <img src="Creating RG.jpg" height="35%" width="35%" alt="Creating Resource Group"> <br />
-<p>RG Validation Passed</p> <img src="RG Validation Passed.jpg" height="35%" width="35%" alt="RG Validation Passed"><br />
-<p>RG-Created</p> <img src="RG-Created.jpg" height="50%" width="50%" alt="RG-Created">
+<p>Creating Resource Group</p> <img src="Creating RG.jpg" height="35%" width="35%" alt="Creating Resource Group"> <br /> <p>Next, provide a name for the Resource Group and select a region to locate the physical data center of the Resource Group. Once completed  click the 'Review + Create' button located in the bottom left corner to proceed with the validation process.</p> <br />
+<p>RG Validation Passed</p> <img src="RG Validation Passed.jpg" height="35%" width="35%" alt="RG Validation Passed"><br /> <p>After entering all the required information, the system will validate. If everything is correct a green checkmark will appear, indicating successful validation. But if there are any issues, it will ask to be reviewed and corrected in order to proceed. Once the green checkmark appears, click the 'Create' button located in the bottom left corner to finalize the creation. </p> <br />
+<p>RG-Created</p> <img src="RG-Created.jpg" height="50%" width="50%" alt="RG-Created"> <p>And now that's done, </p> <br />
 </p>
 <!--<p>
 Before creating the VM, we first need to create a Resource Group. A Resource Group is a container that holds Azure related resources and helps keep them organized. You can think of a Resource Group as similar to a File Explorer it keeps things organized and easily accessible.
