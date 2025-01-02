@@ -34,7 +34,7 @@ In this tutorial, I will demonstrate how to create a virtual machine in Microsof
 <h2>Creating Steps</h2>
 
 <p>
-<img src="" height="20%" width="20%" alt=""> <img src="" height="20%" width="20%" alt="">
+<img src="Resource Group.jpg" height="55%" width="55%" alt="Resource Group"> <br />  <img src="" height="55%" width="55%" alt="Resource Group">
 </p>
 <p>
 Before creating the VM, we first need to create a Resource Group. A Resource Group is a container that holds Azure related resources and helps keep them organized. You can think of a Resource Group as similar to a File Explorer it keeps things organized and easily accessible.
