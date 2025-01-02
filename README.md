@@ -19,6 +19,7 @@ In this tutorial, I will demonstrate how to create a virtual machine in Microsof
 <h2>Operating Systems Used </h2>
 
 - Windows 10 PRO</b>
+- Windows Pro, Version 22H2</b>
 
 <!-- <h2>List of Prerequisites</h2>
 
@@ -51,7 +52,7 @@ Before creating the VM, we first need to create a Resource Group. A Resource Gro
 <img src="" height="80%" width="80%" alt=""> <br />
 </p>
 <p>
- After successfully creating the Resource Group, I will proceed to create the Virtual Machine and associate it with the Resource Group I just created. By placing the Virtual Machine within this Resource Group, it becomes easier to manage and monitor, allowing for better oversight and efficient tracking of dependencies and costs.
+ After successfully creating the Resource Group, we will proceed to create the Virtual Machine and associate it with the newly created Resource Group. By placing the Virtual Machine within this Resource Group, it becomes easier to manage and monitor, allowing for better oversight and efficient tracking of dependencies and costs.
 </p>
 <br />
 
