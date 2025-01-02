@@ -39,7 +39,7 @@ Before creating the VM, we first need to create a Resource Group. A Resource Gro
 <br />
 
 <p>
-<p>Resource Group</p> <img src="Resource Group.jpg" height="35%" width="35%" alt="Resource Group"> <br />  
+<p>Resource Group</p> <img src="Resource Group.jpg" height="35%" width="35%" alt="Resource Group"> <p>To begin the creation process, click the blue "Create" button located prominently in the center of the screen.</p> <br />
 <p>Creating Resource Group</p> <img src="Creating RG.jpg" height="35%" width="35%" alt="Creating Resource Group"> <br />
 <p>RG Validation Passed</p> <img src="RG Validation Passed.jpg" height="35%" width="35%" alt="RG Validation Passed"><br />
 <p>RG-Created</p> <img src="RG-Created.jpg" height="50%" width="50%" alt="RG-Created">
