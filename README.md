@@ -93,3 +93,11 @@ Before creating the VM, we first need to create a Resource Group. A Resource Gro
 <img src="" height="35%" width="35%" alt="">
 <img src="" height="35%" width="35%" alt="">
 
+
+
+
+
+To exit, you can click the 'X' button located at the top of the screen or you can shut down the computer by locating the Start button at the bottom-left corner of the screen. Right-click on it, select 'Run', type 'signoff', and press Enter. 
+
+
+For Mac users, you can download 'Windows App' from the app store. Once the downloaded open the app and click the '+' button <img src="" height="35%" width="35%" alt="">  then select 'Add PC'. In the PC Name field, enter the IP address of the virtual machine. If you'd like, you can also provide a custom identifier by typing any desired name in the Friendly Name field, then click add. To connect, double-click on the small screen next to the IP address or the name you may've given it, and a login prompt will appear. Enter the credentials for your virtual machine. Finally, you’ll gain access to the virtual machine.
