@@ -45,7 +45,7 @@ Before creating the VM, we first need to create a Resource Group. A Resource Gro
 <p>
  <img src="Resource Group.jpg" height="35%" width="35%" alt="Resource Group"> <p>To begin the creation process, click the blue "Create" button located prominently in the center of the screen.</p> <br />
 
-<p>Creating Resource Group</p> <img src="Creating RG.jpg" height="35%" width="35%" alt="Creating Resource Group"> <br /> <p>Next, provide a name for the Resource Group and select a region to locate the physical data center of the Resource Group. Once completed  click the 'Review + Create' button located in the bottom left corner to proceed with the validation process.</p> <br />
+<p>Creating Resource Group</p> <img src="Creating RG.jpg" height="35%" width="35%" alt="Creating Resource Group"> <br /> <p>Next, provide a name for the Resource Group and select a region to locate the physical data center of the Resource Group. Once completed  click the 'Review + Create' button located at the bottom left corner to proceed with the validation process.</p> <br />
 
 <p>RG Validation Passed</p> <img src="RG Validation Passed.jpg" height="35%" width="35%" alt="RG Validation Passed"><br /> <p>After entering all the required information, the system will validate. If everything is correct a green checkmark will appear, indicating successful validation. But if there are any issues, it will ask to be reviewed and corrected in order to proceed. Once the green checkmark appears, click the 'Create' button located in the bottom left corner to finalize the creation. </p> <br />
 
@@ -62,21 +62,34 @@ Before creating the VM, we first need to create a Resource Group. A Resource Gro
  
 <img src="VM-2.jpg" height="35%" width="35%" alt=""> <br /> <p>Now that the Resource Group is set up, let's proceed to create the virtual machine (VM). To start type 'Virtual Machine' into the search bar at the top-middle of the screen or click the 'Virtual Machine' option under the Azure Services. Then it'll prompt you this <img src="VM-create.jpg" height="45%" width="45%" alt="VM-Create"> screen and click the blue 'Create' button in the middle of the screen or use the 'Create' button located in the top-left corner. Then, select the Azure Virtual Machine option to proceed with the VM setup process.</p> <br/>
 
-<p>Creating Virtual Machine</p> <img src="VM creating.jpg" height="55%" width="55%" alt=""> <p>Next, fill out the required fields. Let's begin with the Resource Group, so click the dropdown next to resource group(Red line) and click on the resource Group that was created. Then create the virtual machine name(Orange line) keep it simple and short. Then select a region(light-blue line) doesn't have to be the same as the resource group. Then we'll make our way down and select an image(brown line), click the dropdown and select 'Windows 10 Pro(free service eligible)'</p>
+<p>Creating Virtual Machine</p> <img src="VM creating.jpg" height="55%" width="55%" alt="VM creating"> <p>Next, fill out the required fields to set up your virtual machine.Begin by selecting the Resource Group: click the dropdown menu next to Resource Group (highlighted in red) and choose the Resource Group previously created. Next create a name for your virtual machine (highlighted in orange). Keep it simple and make it easier to identify(space not allowed). Then select a region for the virtual machine (highlighted in light blue). The region does not need to match the one chosen for the Resource Group. Then we move on to the Image section (highlighted in brown), click the dropdown and select 'Windows 10 Pro(free service eligible)'.</p> <br/>
 
-<img src="" height="80%" width="80%" alt=""> <br />
+<img src="VM-3.jpg" height="55%" width="55%" alt="VM creating">
+<p>Then, we’ll move on to selecting a size for the virtual machine. Click the dropdown menu (highlighted in yellow) and choose the desired size. For better performance, I recommend selecting a version 2 or higher. In this example, I'll go with 'Standard_DS1_v2-1'. After selecting the size, proceed to the Administrator Account section (highlighted in green) to create the login credentials. I strongly recommend writing them down beforehand, as they will be required to log in to the Remote Desktop. Next, scroll down to the licensing section. Check the box (highlighted in purple) to confirm.</p><br />
 
-<img src="" height="80%" width="80%" alt=""> <br />
+<img src="VM-4.jpg" height="65%" width="65%" alt="VM creating"> 
+<P>Finally, click the blue 'Review + Create' button located at the bottom of the page to proceed with creating the virtual machine (VM). This will prompt the system to validate all the information entered. If there are no issues, it'll pass the validation and be able to finalize the creation process on the next screen.</P> <br/>
+
+<img src="VM-5.jpg" height="55%" width="55%" alt="VM creating"> <br />
 </p>
 <p>
- After successfully creating the Resource Group, we will proceed to create the Virtual Machine and associate it with the newly created Resource Group. By placing the Virtual Machine within this Resource Group, it becomes easier to manage and monitor, allowing for better oversight and efficient tracking of dependencies and costs.
+ Once getting to this page, click the 'Create' button (highlighted in black) to finalize the creation of the virtual machine (VM). This will initiate the deployment process.(may take 1-3 min to deploye) Azure will set up the VM according to the configurations we provided. 
 </p>
 <br />
 
+<img src="VM-lookup.jpg" height="55%" width="55%" alt=""/>
 <p>
-<img src="" height="80%" width="80%" alt=""/>
+ After the deployment is complete, click the 'Home' tab located at the top-left corner of the screen to return to the main page. To locate your virtual machine, you can either use the search bar (highlighted in Red) at the top of the page by typing 'Virtual Machine', or navigate to it by clicking the 'Virtual Machine' option under the Azure Services section (highlighted in black).
+</p> <br />
+
+<h2>Connecting to Remote Desktop</h2> 
+
+<h3>Connecting Steps</h3>
+
+<p>In order to connect we need the Ip address of the Virtual Machine. We can get by opening Virtual Machine using the search bar or by locating it under Azure services.
 </p>
-<p>
- 
-</p>
-<br />
+
+<img src="" height="35%" width="35%" alt="">
+<img src="" height="35%" width="35%" alt="">
+<img src="" height="35%" width="35%" alt="">
+
