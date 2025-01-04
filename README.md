@@ -86,7 +86,7 @@ Before creating the VM, we first need to create a Resource Group. A Resource Gro
 
 <h3>Connecting Steps</h3>
 
-<p>In order to connect we need the Ip address of the Virtual Machine. We get that by opening Virtual Machine using the search bar or by locating it under Azure services.
+<p>To connect, you’ll need the IP address of the Virtual Machine. To retrieve it, click on Virtual Machine, which will bring you to the <img src="VM-IP Address.jpg" height="55%" width="55%" alt="VM-IP"> page. On this page, you’ll find the IP address displayed on the right side (highlighted in green). Simply copy it and paste it into the Remote Desktop application. Or you can click on the VM name (highlighted in red) to access the detailed overview page, where the IP address can also be found and copied. <img src="" height="35%" width="35%" alt="">
 </p>
 
 <img src="" height="35%" width="35%" alt="">
