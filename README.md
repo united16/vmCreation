@@ -1,4 +1,4 @@
-<p align="center">
+0<p align="center">
 <img src="Virtual Machine.webp" height="40%" width="40%"alt="Virtual Machine logo"/>
 </p>
 
@@ -86,7 +86,7 @@ Before creating the VM, we first need to create a Resource Group. A Resource Gro
 
 <h3>Connecting Steps</h3>
 
-<p>In order to connect we need the Ip address of the Virtual Machine. We can get by opening Virtual Machine using the search bar or by locating it under Azure services.
+<p>In order to connect we need the Ip address of the Virtual Machine. We get that by opening Virtual Machine using the search bar or by locating it under Azure services.
 </p>
 
 <img src="" height="35%" width="35%" alt="">
