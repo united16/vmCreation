@@ -86,18 +86,22 @@ Before creating the VM, we first need to create a Resource Group. A Resource Gro
 
 <h3>Connecting Steps</h3>
 
-<p>To connect, you’ll need the IP address of the Virtual Machine. To retrieve it, click on Virtual Machine, which will bring you to the <img src="VM-IP Address.jpg" height="55%" width="55%" alt="VM-IP"> page. On this page, you’ll find the IP address displayed on the right side (highlighted in green). Simply copy it and paste it into the Remote Desktop application. Or you can click on the VM name (highlighted in red) to access the detailed overview page, where the IP address can also be found and copied. <img src="" height="35%" width="35%" alt="">
-</p>
+<p>To connect, you’ll need the IP address of the Virtual Machine. To retrieve it, click on Virtual Machine, which will bring you to the <img src="VM-IP Address.jpg" height="55%" width="55%" alt="VM-IP"> page. On this page, you’ll find the IP address displayed on the right side (highlighted in green). Simply copy it and paste it into the Remote Desktop application. Or you can click on the VM name (highlighted in red) to access the detailed overview page, where the IP address can also be found and copied. <img src="IP Address.jpg" height="55%" width="55%" alt=""> 
+</p> <br />
 
-<img src="" height="35%" width="35%" alt="">
-<img src="" height="35%" width="35%" alt="">
-<img src="" height="35%" width="35%" alt="">
+<h3>Now let's Connect</h3>
+<p>For Windows users, you can open the Remote Desktop application by clicking the 'Start' button at the bottom of the monitor screen. <img src="Start.jpg" height="45%" width="45%" alt="Start">  In the search bar, type 'Remote Desktop', then click on the application when it appears. Once its opened, right-click on the connection field and select 'Paste' to input the IP address. Or you can copy the IP address from the Azure portal using Ctrl C (Copy) and paste it into the Remote Desktop field using Ctrl V (Paste). <img src="Copy & Paste IP.jpg" height="35%" width="35%" alt="Copy & Paste"> Then click connect.
+</p> <br />
 
+<p>Once getting to this page <img src="RD.jpg" height="55%" width="55%" alt="RD"> you may see your Microsoft username displayed by default. In this case, click 'More Choices' (highlighted in yellow), and then select 'Use a different account' (highlighted in blue). Enter the login information for your Virtual Machine then click 'Ok'. Afterward, a security message will appear. To proceed, check the box (highlighted in orange) to confirm that you trust the connection, and then click 'Yes' (highlighted in red) to finalize the login process. <img src="Sign-in.jpg" height="35%" width="35%" alt="Sign-in"></p> <br />
 
-
-
-
-To exit, you can click the 'X' button located at the top of the screen or you can shut down the computer by locating the Start button at the bottom-left corner of the screen. Right-click on it, select 'Run', type 'signoff', and press Enter. 
+<h3>The tutorial is now complete! To exit the Remote Desktop Application, you can click the 'X' button located at the top of the screen or you can shut down the computer by locating the Start button at the bottom-left corner of the screen. Right-click on it, select 'Run', type 'signoff', and press Enter.</h3>  <br />
 
 
-For Mac users, you can download 'Windows App' from the app store. Once the downloaded open the app and click the '+' button <img src="" height="35%" width="35%" alt="">  then select 'Add PC'. In the PC Name field, enter the IP address of the virtual machine. If you'd like, you can also provide a custom identifier by typing any desired name in the Friendly Name field, then click add. To connect, double-click on the small screen next to the IP address or the name you may've given it, and a login prompt will appear. Enter the credentials for your virtual machine. Finally, you’ll gain access to the virtual machine.
+<h3>Mac Users</h3>
+
+<p>For Mac users, download the 'Windows app' from the App Store. After downloading it, open the app and click the '+' button. Then select 'Add PC' from the menu.In the PC Name field, enter the IP address of your virtual machine. If desired, you can provide a custom identifier by typing a preferred name in the Friendly Name field to make it easier to recognize. Once all fields are filled, click 'Add' to save the connection.To connect, double-click on the small screen icon next to the IP address or the name you assigned. A login prompt will appear, where you’ll need to enter the credentials for your virtual machine. After successfully logging in, you’ll have full access to the virtual machine.</p>                                                       
+
+<h4>Sorry it's long, I explained it in the way I’d want someone to explain it to me.</h4>
+
+<!--For Mac users, you can download 'Windows App' from the app store. Once the downloaded open the app and click the '+' button <img src="" height="35%" width="35%" alt="">  then select 'Add PC'. In the PC Name field, enter the IP address of the virtual machine. If you'd like, you can also provide a custom identifier by typing any desired name in the Friendly Name field, then click add. To connect, double-click on the small screen next to the IP address or the name you may've given it, and a login prompt will appear. Enter the credentials for your virtual machine. Finally, you’ll gain access to the virtual machine.-->
