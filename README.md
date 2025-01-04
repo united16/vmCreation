@@ -1,4 +1,4 @@
-0<p align="center">
+<p align="center">
 <img src="Virtual Machine.webp" height="40%" width="40%"alt="Virtual Machine logo"/>
 </p>
 
